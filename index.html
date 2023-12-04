@@ -12,9 +12,48 @@
         <strong>info@cantinapaltrinieri.it</strong></p>
         </div>
         <div class="one_line_col">
-        <header>
+            <header>
+                <h3 class="post-title">Diritti dell'utente</h3>
+                </header>
+                <p>In ogni momento potrai esercitare i tuoi diritti nei confronti del titolare del trattamento, ai sensi degli artt. 15-16-17-18-20-21-22 GDPR, che riassumiamo qui di seguito. In particolare, hai il diritto: </p>
+                <ul>
+                    <li>di ottenere la conferma se sia o meno in corso un trattamento dei tuoi dati personali e, in tal caso, accedere a tutte le informazioni relative al trattamento stesso (art 15, diritto di accesso);</li>
+                    <li>di ottenere la rettifica o l’integrazione dei dati personali inesatti che ti riguardano (art 16, diritto di rettifica);</li>
+                    <li>di ottenere la cancellazione dei dati personali che ti riguardano, derivante da un obbligo di legge o per illiceità del trattamento (art 17, diritto di cancellazione);</li>
+                    <li>di ottenere la temporanea sospensione del trattamento (art 18, diritto di limitazione);</li>
+                    <li>di ricevere in un formato di uso comune, leggibile da dispositivo automatico, i dati personali che ti riguardano, se trattati in base al tuo consenso (art 20, diritto di portabilità);</li>
+                    <li>di non essere sottoposto ad una profilazione automatizzata di dati (art 22, diritto di obiezione)</li>
+                    <li>di ottenere la cessazione del trattamento nei casi in cui i tuoi dati personali siano trattati con determinate finalità, ad esempio per fini di marketing diretto (art 21, diritto di opposizione);</li>
+                </ul>
+            <header>
+                <h2>Modalità del trattamento</h2>
+                <p>l trattamento dei dati personali sarà effettuato sia manualmente che mediante l’utilizzo di strumenti elettronici, nell'osservanza di tutte le cautele necessarie a garantire la sicurezza e la riservatezza delle informazioni, in ottemperanza agli obblighi normativi. </p>
+            </header>
+            <header>
+                <h2>Durata del trattamento</h2>
+                <p>I dati personali trattati attraverso l'Applicazione possono essere: </p>
+                <ul>
+                    <li>
+                        Dati forniti volontariamente dall'interessato:
+                        <ul>
+                            <li>
+                                Nome, cognome, indirizzo email, indirizzo abitazione, numero di telefono per la registrazione all'Applicazione e per la comunicazione via email o push-notification come descritto in questo documento;
+                            </li>
+                            <li>
+                                Dati di pagamento, secondo le modailità specificate in questo documento.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </header>
+            <header>
+                <h2>I dati personali oggetto di trattamento</h2>
+                <p>I dati personali trattati saranno conservati dalla Società per il tempo strettamente necessario all’erogazione dei servizi e relative attività collegate.</p>
+            </header>
+                <header>
         <h2 class="post-title">Tipologie di Dati raccolti</h2>
         </header>
+        
         <p>Fra i Dati Personali raccolti da questa Applicazione, in modo autonomo o tramite terze parti, ci sono: nome, cognome, indirizzo, indirizzo email e numero di telefono.</p>
         <p> Durante l'utilizzo dell'Applicazione, l'utente potrà effettuare pagamenti, che verranno processati mediante l'utilizzo della piattaforma Stripe.</p>
         <p>Altri Dati Personali raccolti potrebbero essere indicati in altre sezioni di questa privacy policy o mediante testi informativi visualizzati contestualmente alla raccolta dei Dati stessi.</p>
@@ -50,6 +89,7 @@
         <ul class="for_boxes">
         <li>
         <div class="box_primary box_10 expand expanded">
+            
         <header>
         <h3 class="post-title">Autenticazione utenti</h3>
         </header>
@@ -71,8 +111,24 @@
         <li>
         <div class="box_primary box_10 expand expanded">
         <header>
+            <h3 class="post-title">Caricamento immagine di profilo</h3>
+            <p>
+                L'utente potrà scegliere se modificare la propria immagine di profilo. Le immagini vengono caricate e gestite sul servizio Cloudflare R2 secondo le modalità specificate nella privacy policy del servizio.<br>
+                Le immagini verranno memorizzate in datacenter europei.
+                <a href="https://www.cloudflare.com/en-gb/privacypolicy/" target="_blank">Privacy policy</a>
+            </p>
+        </header>
+        <header>
         <h3 class="post-title">Contattare l’Utente</h3>
         </header>
+        <div class="expand-content">
+            <p><strong>Invio di notifiche al dispositivo dell'Utente (Questa Applicazione)</strong></p>
+            <p>L'Utente, una volta registratosi all'Applicazione, potrà scegliere se permettere di ricevere notifiche riguardanti l'App.</p>
+            <p>Dati personali raccolti: id univoco dispositivo da cui viene effettuato il login.</p>
+            <p>Le notifiche vengono inviate tramite la piattaforma Google Firebase Cloud Messaging secondo quanto specificato dalla privacy policy del servizio
+            <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></p>
+            </p>
+            </div>
         <div class="expand-content">
             <p><strong>Invio di Email di verifica account (Questa Applicazione)</strong></p>
             <p>L’Utente, compilando con i propri Dati il modulo di registrazione all'Applicazione, acconsente al loro utilizzo per l'invio di email di verifica dell'account stesso.</p>
@@ -85,13 +141,15 @@
             <p><strong>Invio di Email per acquisti eseguiti nell'applicazione (Questa Applicazione)</strong></p>
             <p>L’Utente, compilando con i propri Dati il modulo di registrazione all'Applicazione, acconsente al loro utilizzo per l'invio di email di verifica dell'account stesso.</p>
             <p>Dati personali raccolti: Nome, Cognome, Indirizzo, Email e Numero di Telefono.</p>
-            <p>L'utente viene contattato tramite la piattaforma Google Firebase Authentication secondo quanto specificato dalla privacy policy del servizio
-            <p><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></p>
+            <p>L'utente viene contattato tramite la piattaforma Sendgrid, per l'invio massivo di Email, secondo quanto specificato dalla privacy policy del servizio
+                <p><a href="https://sendgrid.com/en-us/resource/general-data-protection-regulation-2" target="_blank" rel="noopener">Privacy Policy</a></p>
             </p>
             </div>
         <div class="expand-content">
         <p><strong>Invio di email per Prenotazione Tour (Questa Applicazione)</strong></p>
         <p>L’Utente, compilando con i propri Dati il modulo di prenotazione tour all'interno dell'Applicazione, acconsente al loro utilizzo per rispondere alle richieste di informazioni o di qualunque altra natura indicata dall’intestazione del modulo.</p>
+        <p>L'utente viene contattato tramite la piattaforma Sendgrid, per l'invio massivo di Email, secondo quanto specificato dalla privacy policy del servizio
+            <p><a href="https://sendgrid.com/en-us/resource/general-data-protection-regulation-2" target="_blank" rel="noopener">Privacy Policy</a></p>
         <p>Dati personali raccolti: Nome, Cognome, Email e Numero di Telefono, Data di Prenotazione, Orario e numero persone partecipanti al tour.</p>
         </div>
         </div>
